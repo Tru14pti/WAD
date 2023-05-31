@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flower Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+  <div data-role="header">
+    <div class="sidebar">
+        <a href="#">HOME</a>
+        <a href="#">REGISTER</a>
+        <a href="#">PRODUCTS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+    </div>
+   <!-- <h1>Welcome to the best flowershop in the world.</h1>-->
+  </div>
+  <div data-role="content">
+    <p>This is the home page content.</p>
+    <div class="card-deck" script="height: 8rem;">
+        <div class="card" >
+          <img class="card-img-top" height=300rem src="C:\Users\shantanu\OneDrive\Desktop\fl3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tinkerbell</h5>
+            <p class="card-text">This is our very own special tinkerbell personalised bouquet.</p>
+        
+          </div>
+    <a href="#about" data-role="button">About</a>
+    <a href="#contact" data-role="button">Contact</a>
+  </div>
+  <div data-role="footer">
+    <h4>@copyright registered to Trupti Pacharne</h4>
+  </div>
+</div>
+
+<!-- About Page -->
+<!-- About Page -->
+<div data-role="page" id="about">
+    <div data-role="header">
+      <h1>About Us</h1>
+    </div>
+    <div data-role="content">
+      <h2>Welcome to our Flower Website!</h2>
+      <p>At Floraa, we are dedicated to creating exquisite floral arrangements that bring beauty and joy to every occasion.</p>
+      <p>Our team of talented and passionate florists carefully selects the finest flowers, ensuring that each arrangement is a work of art. From elegant bouquets to stunning centerpieces, we take pride in our attention to detail and commitment to quality.</p>
+      <p>With years of experience in the industry, we understand the power of flowers to convey emotions and make moments unforgettable. Whether you're celebrating a birthday, anniversary, wedding, or any special event, our floral creations will add a touch of magic to your day.</p>
+      <p>What sets us apart is our personalized approach. We take the time to listen to your preferences and understand your vision, allowing us to create tailor-made arrangements that reflect your unique style and the message you want to convey.</p>
+      <p>Explore our website to discover our stunning collection of floral designs. From classic roses to exotic blooms, we offer a wide variety of options to suit every taste and occasion. We also provide reliable delivery services, ensuring that your flowers arrive fresh and on time.</p>
+      <p>Thank you for choosing Floraa. We look forward to helping you celebrate life's special moments with the beauty of flowers.</p>
+      <a href="#home" data-role="button">Back</a>
+    </div>
+    <div data-role="footer">
+      <h4>@copyright registered to Trupti Pacharne</h4>
+    </div>
+  </div>
+  
+
+<!-- Contact Page -->
+<!-- Contact Page -->
+<div data-role="page" id="contact">
+    <div data-role="header">
+      <h1>Contact Us</h1>
+    </div>
+    <div data-role="content">
+      <h2>Get in Touch</h2>
+      <p>We would love to hear from you! If you have any questions, inquiries, or feedback, please don't hesitate to reach out to us.</p>
+      
+      <h3>Contact Information</h3>
+      <p><strong>Address:</strong> 123 Flower Street, Pune, India</p>
+      <p><strong>Phone:</strong> 8983382180</p>
+      <p><strong>Email:</strong> truptipacharne14@gmail.com.com</p>
+      
+      <h3>Opening Hours</h3>
+      <p><strong>Monday-Friday:</strong> 9:00 AM - 6:00 PM</p>
+      <p><strong>Saturday:</strong> 9:00 AM - 4:00 PM</p>
+      <p><strong>Sunday:</strong> Closed</p>
+      
+      <h3>Connect with Us</h3>
+      <div class="social-media">
+        <a href="#" target="_blank" rel="noopener noreferrer"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#" target="_blank" rel="noopener noreferrer"><img src="instagram-icon.png" alt="Instagram"></a>
+      </div>
+      
+      <h3>Contact Form</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <input type="submit" value="Send Message" data-role="button">
+      </form>
+      
+      <a href="#home" data-role="button">Back</a>
+    </div>
+    <div data-role="footer">
+      <h4>@copyright registered to Trupti Pacharne</h4>
+    </div>
+  </div>
+  
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.sidebar{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #e58080;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.navbar{
+    margin-left:200px ;
+    background-color: #640707;
+}
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }

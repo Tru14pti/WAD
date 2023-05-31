@@ -1,0 +1,12 @@
+.sidebar{
+  background-color: rgb(193, 33, 233); 
+  text-align: left;
+  
+}
+body{
+    background-color: rgb(241, 208, 243);
+}
+.card-deck{
+    position: absolute;
+    align-items: center;
+}
